@@ -1,0 +1,4 @@
+<span class="btn-primary btn ms-4" (click)="filtra('')">Tutti</span>
+<span *ngFor="let c of categorie">
+    <button class="btn-primary btn ms-4" (click)="filtra(c.id)">{{c.title}}</button>
+</span>

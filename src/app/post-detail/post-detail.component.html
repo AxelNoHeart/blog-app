@@ -1,0 +1,7 @@
+<h3>{{post?.title}}</h3>
+<span>{{post?.category}}</span>
+<p>Data di pubblicazione: {{post?.date | date: 'medium'}}</p>
+<p>{{post?.body}}</p>
+<button class="btn btn-primary">Aggiungi ai preferiti</button>
+
+<!-- (click)="aggiungiPreferito(post.id) -->
